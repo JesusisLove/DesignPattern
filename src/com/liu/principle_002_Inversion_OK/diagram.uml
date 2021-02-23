@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="521.0">com.liu.principle_002_Inversion_OK.Person_OK_Pattern</node>
+    <node x="307.0" y="137.0">com.liu.principle_002_Inversion_OK.lianxi.PanasonicTV</node>
+    <node x="487.00000000000006" y="521.0">com.liu.principle_002_Inversion_OK.Community_Email</node>
+    <node x="479.50000000000006" y="417.0">com.liu.principle_002_Inversion_OK.CommunityReveiver</node>
+    <node x="278.00000000000006" y="521.0">com.liu.principle_002_Inversion_OK.Community_whatsApp</node>
+    <node x="315.35714285714283" y="0.0">com.liu.principle_002_Inversion_OK.lianxi.ITV</node>
+    <node x="170.0" y="137.0">com.liu.principle_002_Inversion_OK.lianxi.SonyTV</node>
+    <node x="851.0" y="521.0">com.liu.principle_002_Inversion_OK.Community_WeChat</node>
+    <node x="340.6738095238095" y="274.0">com.liu.principle_002_Inversion_OK.lianxi.OpenAndClose</node>
+    <node x="0.0" y="126.0">com.liu.principle_002_Inversion_OK.lianxi.IOpenAndClose</node>
+    <node x="673.0" y="521.0">com.liu.principle_002_Inversion_OK.Community_LINE</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.liu.principle_002_Inversion_OK.lianxi.SonyTV" target="com.liu.principle_002_Inversion_OK.lianxi.ITV">
+      <point x="0.0" y="-38.0" />
+      <point x="228.5" y="106.0" />
+      <point x="350.45714285714286" y="106.0" />
+      <point x="-23.399999999999977" y="38.0" />
+    </edge>
+    <edge source="com.liu.principle_002_Inversion_OK.lianxi.PanasonicTV" target="com.liu.principle_002_Inversion_OK.lianxi.ITV">
+      <point x="2.8421709430404007E-14" y="-38.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.liu.principle_002_Inversion_OK.lianxi.IOpenAndClose" target="com.liu.principle_002_Inversion_OK.lianxi.ITV">
+      <point x="0.0" y="-49.0" />
+      <point x="75.0" y="96.0" />
+      <point x="327.0571428571428" y="96.0" />
+      <point x="-46.80000000000001" y="38.0" />
+    </edge>
+    <edge source="com.liu.principle_002_Inversion_OK.Community_WeChat" target="com.liu.principle_002_Inversion_OK.CommunityReveiver">
+      <point x="0.0" y="-27.0" />
+      <point x="937.5" y="491.0" />
+      <point x="642.4000000000001" y="491.0" />
+      <point x="72.39999999999998" y="27.0" />
+    </edge>
+    <edge source="com.liu.principle_002_Inversion_OK.lianxi.OpenAndClose" target="com.liu.principle_002_Inversion_OK.lianxi.ITV">
+      <point x="47.666666666666686" y="-49.0" />
+      <point x="459.8404761904762" y="249.0" />
+      <point x="462.5" y="249.0" />
+      <point x="462.5" y="96.0" />
+      <point x="420.65714285714284" y="96.0" />
+      <point x="46.80000000000002" y="38.0" />
+    </edge>
+    <edge source="com.liu.principle_002_Inversion_OK.lianxi.OpenAndClose" target="com.liu.principle_002_Inversion_OK.lianxi.IOpenAndClose">
+      <point x="-47.66666666666663" y="-49.0" />
+      <point x="364.50714285714287" y="249.0" />
+      <point x="75.0" y="249.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.liu.principle_002_Inversion_OK.Community_LINE" target="com.liu.principle_002_Inversion_OK.CommunityReveiver">
+      <point x="0.0" y="-27.0" />
+      <point x="752.0" y="501.0" />
+      <point x="606.2" y="501.0" />
+      <point x="36.19999999999999" y="27.0" />
+    </edge>
+    <edge source="com.liu.principle_002_Inversion_OK.Community_whatsApp" target="com.liu.principle_002_Inversion_OK.CommunityReveiver">
+      <point x="0.0" y="-27.0" />
+      <point x="372.50000000000006" y="501.0" />
+      <point x="533.8000000000001" y="501.0" />
+      <point x="-36.19999999999999" y="27.0" />
+    </edge>
+    <edge source="com.liu.principle_002_Inversion_OK.Community_Email" target="com.liu.principle_002_Inversion_OK.CommunityReveiver">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.liu.principle_002_Inversion_OK.Person_OK_Pattern" target="com.liu.principle_002_Inversion_OK.CommunityReveiver">
+      <point x="0.0" y="-27.0" />
+      <point x="129.0" y="491.0" />
+      <point x="497.6000000000001" y="491.0" />
+      <point x="-72.39999999999998" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="599.5" y="246.0" />
+  <SelectedNodes>
+    <node>com.liu.principle_002_Inversion_OK.lianxi.PanasonicTV</node>
+    <node>com.liu.principle_002_Inversion_OK.lianxi.ITV</node>
+    <node>com.liu.principle_002_Inversion_OK.lianxi.SonyTV</node>
+    <node>com.liu.principle_002_Inversion_OK.lianxi.OpenAndClose</node>
+    <node>com.liu.principle_002_Inversion_OK.lianxi.IOpenAndClose</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
