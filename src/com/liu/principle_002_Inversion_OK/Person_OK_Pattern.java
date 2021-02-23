@@ -1,8 +1,5 @@
 package com.liu.principle_002_Inversion_OK;
 
-import com.liu.principle_002_Inversion_NG.Community_Email;
-import com.liu.principle_002_Inversion_NG.Community_LINE;
-
 public class Person_OK_Pattern {
     /*
      * 新的解决思路：
@@ -10,7 +7,7 @@ public class Person_OK_Pattern {
      *  Email,WeChat,LINE,whatsApp都是通讯接收者，他们各自实现CommunityReveiver接口就好了
      *  这样的设计原则就是依赖倒转原则
      * */
-    public void receive(CommunityReveiver reveiver) {
+    public void receive(CommunityReceiver reveiver) {
         System.out.println(reveiver.getInfo());
     }
 
