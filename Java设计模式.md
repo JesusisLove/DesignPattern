@@ -41,3 +41,14 @@
 ​                    **继承实际上让两个类的耦合性增强了，在适当的情况下，可以通过聚合，组合，依赖的方式来解决问题** 
 
 ![diagram](/Users/liuyimin/Documents/02_个人篇/201_学习/JavaDesignPatternReporsity/DesignPattern/src/com/liu/principle_003_Liskov_OK/diagram.png)
+
+### 四、Java设计模式 开闭原则 基本介绍
+
+#### 1）开闭原则（OpenClosePrinciple）是编程中最基础，最重要的设计原则
+
+#### 2）一个软件实体乳类，模块和函数应该对扩展开放（对提供方来说的），对修改关闭（对使用方来说的）。用抽象构建框架，用实现扩展细节。
+
+#### 3）当软件需求发生变化时，尽量通过扩展实体的行为来实现业务需求变化，而不是通过修改原有的代码来实现业务需求变化
+
+
+
