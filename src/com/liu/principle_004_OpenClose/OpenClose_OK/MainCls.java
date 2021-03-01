@@ -4,14 +4,11 @@ package com.liu.principle_004_OpenClose.OpenClose_OK;
 */
 public class MainCls {
     public static void main(String[] arg) {
-        // 生成提供方的对象
-        Provider_Rectangle rectangle = new Provider_Rectangle();
-        Provider_Circle cricle = new Provider_Circle();
 
         // 生成一个使用方的对象
         User_GraphicEditor graphicEditor = new User_GraphicEditor();
-        graphicEditor.drawShape(rectangle);
-        graphicEditor.drawShape(cricle);
+        graphicEditor.drawShape(new Provider_Rectangle());
+        graphicEditor.drawShape(new Provider_Circle());
 
         /* 因业务需要，对程序进行扩展：要程序实现可以画三角形 的这么一个业务
         *  只需要这样做即可

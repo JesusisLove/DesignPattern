@@ -28,7 +28,7 @@ public class GraphicEditor {
 
     /* ＜新增需时要对程序做的修改＞
      * 如果我要画一个三角的图形（增加类业务需求），来看一下该Project的扩展性
-     * 要添加一个执行画三角形的一个方法
+     * 要为Triangle.java(提供者)添加一个执行画三角形的一个方法
      */
     private void drawTriangle(Shape shape) {
         System.out.println("Draw Triangle");

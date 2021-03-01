@@ -6,6 +6,5 @@ public class MainCls {
         g.drawShap(new Rectangle());
         g.drawShap(new Circle());
         g.drawShap(new Triangle());
-
     }
 }
