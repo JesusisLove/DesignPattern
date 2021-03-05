@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="126.0">com.liu.uml_002_generalization.PersonServiceDao</node>
+    <node x="1.5" y="0.0">com.liu.uml_002_generalization.DaoSupport</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.liu.uml_002_generalization.PersonServiceDao" target="com.liu.uml_002_generalization.DaoSupport">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="329.0" y="278.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
