@@ -1,4 +1,4 @@
-package com.liu.model_1_creation_02factory.simplefactory.pizzaSale_OK.pizza;
+package com.liu.model_1_creation_02factory.simplefactory.pizzaSale_02_OCP.pizza;
 
 public abstract class Pizza {
     protected String name;

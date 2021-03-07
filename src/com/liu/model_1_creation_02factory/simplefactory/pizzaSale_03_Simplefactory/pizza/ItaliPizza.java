@@ -1,13 +1,12 @@
-package com.liu.model_1_creation_02factory.simplefactory.pizzaSale_OK.pizza;
+package com.liu.model_1_creation_02factory.simplefactory.pizzaSale_03_Simplefactory.pizza;
 
-public class CheesePizza extends Pizza {
-    public CheesePizza () {
-        name = "奶酪披萨";
+public class ItaliPizza extends Pizza {
+    public ItaliPizza() {
+        name = "意大利披萨";
     }
-
     @Override
     public void prepare() {
-        System.out.println("正在按照" + name + "的做法，准备原材料...");
+        System.out.println("正在按照" + name + "的做法，准备原材料...");;
     }
 
     @Override

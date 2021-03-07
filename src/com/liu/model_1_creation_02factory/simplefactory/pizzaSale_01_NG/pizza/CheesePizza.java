@@ -1,4 +1,4 @@
-package com.liu.model_1_creation_02factory.simplefactory.pizzaSale_NG.pizza;
+package com.liu.model_1_creation_02factory.simplefactory.pizzaSale_01_NG.pizza;
 
 public class CheesePizza extends Pizza {
 

@@ -1,9 +1,9 @@
-package com.liu.model_1_creation_02factory.simplefactory.pizzaSale_OK.pizzastore;
+package com.liu.model_1_creation_02factory.simplefactory.pizzaSale_02_OCP.pizzastore;
 
-import com.liu.model_1_creation_02factory.simplefactory.pizzaSale_OK.order.OrderPizza;
-import com.liu.model_1_creation_02factory.simplefactory.pizzaSale_OK.pizza.CheesePizza;
-import com.liu.model_1_creation_02factory.simplefactory.pizzaSale_OK.pizza.GreekPizza;
-import com.liu.model_1_creation_02factory.simplefactory.pizzaSale_OK.pizza.ItaliPizza;
+import com.liu.model_1_creation_02factory.simplefactory.pizzaSale_02_OCP.order.OrderPizza;
+import com.liu.model_1_creation_02factory.simplefactory.pizzaSale_02_OCP.pizza.CheesePizza;
+import com.liu.model_1_creation_02factory.simplefactory.pizzaSale_02_OCP.pizza.GreekPizza;
+import com.liu.model_1_creation_02factory.simplefactory.pizzaSale_02_OCP.pizza.ItaliPizza;
 
 // 出售Pizza的客户端，发出订购
 public class PizzaStore {

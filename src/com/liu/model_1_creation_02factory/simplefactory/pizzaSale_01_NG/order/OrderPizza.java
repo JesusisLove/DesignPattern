@@ -1,8 +1,8 @@
-package com.liu.model_1_creation_02factory.simplefactory.pizzaSale_NG.order;
+package com.liu.model_1_creation_02factory.simplefactory.pizzaSale_01_NG.order;
 
-import com.liu.model_1_creation_02factory.simplefactory.pizzaSale_NG.pizza.CheesePizza;
-import com.liu.model_1_creation_02factory.simplefactory.pizzaSale_NG.pizza.GreekPizza;
-import com.liu.model_1_creation_02factory.simplefactory.pizzaSale_NG.pizza.Pizza;
+import com.liu.model_1_creation_02factory.simplefactory.pizzaSale_01_NG.pizza.CheesePizza;
+import com.liu.model_1_creation_02factory.simplefactory.pizzaSale_01_NG.pizza.GreekPizza;
+import com.liu.model_1_creation_02factory.simplefactory.pizzaSale_01_NG.pizza.Pizza;
 
 import java.io.BufferedReader;
 import java.io.IOException;

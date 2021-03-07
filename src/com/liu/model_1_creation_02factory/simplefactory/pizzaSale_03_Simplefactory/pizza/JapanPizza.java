@@ -1,8 +1,8 @@
-package com.liu.model_1_creation_02factory.simplefactory.pizzaSale_OK.pizza;
+package com.liu.model_1_creation_02factory.simplefactory.pizzaSale_03_Simplefactory.pizza;
 
-public class ItaliPizza extends Pizza {
-    public ItaliPizza() {
-        name = "意大利披萨";
+public class JapanPizza extends Pizza {
+    public JapanPizza() {
+        name = "日本披萨";
     }
     @Override
     public void prepare() {
