@@ -1,4 +1,4 @@
-package com.liu.model_1_creation_singleton_type2;
+package com.liu.model_1_creation_01singleton_type2;
 
 // 饿汉式（静态代码块）
 /*

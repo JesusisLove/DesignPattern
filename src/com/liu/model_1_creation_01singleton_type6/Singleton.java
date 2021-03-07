@@ -1,6 +1,6 @@
-package com.liu.model_1_creation_singleton_type6;
+package com.liu.model_1_creation_01singleton_type6;
 
-// 饿汉式（双重检查）
+// 单例模式（双重检查）
 /*
 * 构造器私有化（目的是防止new对象）
 * 类的内部创建对象

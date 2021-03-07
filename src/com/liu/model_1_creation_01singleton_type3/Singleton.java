@@ -1,6 +1,6 @@
-package com.liu.model_1_creation_singleton_type3;
+package com.liu.model_1_creation_01singleton_type3;
 
-// 饿汉式（线程不安全）
+// 懒汉式（线程不安全）
 /*
 * 构造器私有化（目的是防止new对象）
 * 类的内部创建对象

@@ -1,6 +1,6 @@
-package com.liu.model_1_creation_singleton_type7;
+package com.liu.model_1_creation_01singleton_type7;
 
-// 饿汉式（静态内部类）
+// 单例模式（静态内部类）
 /*
 * 构造器私有化（目的是防止new对象）
 * 类的内部创建对象

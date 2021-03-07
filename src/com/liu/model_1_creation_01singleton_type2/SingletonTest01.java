@@ -1,4 +1,4 @@
-package com.liu.model_1_creation_singleton_type1;
+package com.liu.model_1_creation_01singleton_type2;
 
 public class SingletonTest01 {
     public static void main(String[] args) {
@@ -11,9 +11,9 @@ public class SingletonTest01 {
     }
 
     /*
-    * 饿汉式（静态常量）优缺点说明
-    * 1）优点：这种写法比较简单，就是在类装载的时候就完成实例化。避免了线程同步问题
-    * 2）缺点：在类装载的时候就完成实例化，没有达到Lazy Loading的效果。如果从开始至终从未使用过这个实例，则会造成内存的浪费
+    * 饿汉式（静态代码块）优缺点说明
+    * 1）优点：跟静态常量的饿汉式一样的
+    * 2）缺点：跟静态常量的饿汉式一样的
     * 3）结论：这种单例模式可用，但是可能造成内存浪费
     * */
 }

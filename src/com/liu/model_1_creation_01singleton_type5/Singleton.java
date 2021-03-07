@@ -1,6 +1,6 @@
-package com.liu.model_1_creation_singleton_type5;
+package com.liu.model_1_creation_01singleton_type5;
 
-// 饿汉式（线程安全，同步代码块）
+// 懒汉式（线程安全，同步代码块）
 /*
 * 构造器私有化（目的是防止new对象）
 * 类的内部创建对象
