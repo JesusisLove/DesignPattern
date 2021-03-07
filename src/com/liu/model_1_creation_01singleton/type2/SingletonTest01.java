@@ -1,4 +1,4 @@
-package com.liu.model_1_creation_01singleton_type2;
+package com.liu.model_1_creation_01singleton.type2;
 
 public class SingletonTest01 {
     public static void main(String[] args) {

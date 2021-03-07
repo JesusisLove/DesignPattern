@@ -1,8 +1,8 @@
-package com.liu.model_1_creation_01singleton_type6;
+package com.liu.model_1_creation_01singleton.type4;
 
 public class SingletonTest01 {
     public static void main(String[] args) {
-        System.out.println("------- 线程安全的懒汉式模式 （双重检查 推荐使用✅）-------");
+        System.out.println("------- 线程安全的懒汉式模式（同步方法） -------");
         Singleton singleton1 = Singleton.getInstance();
         Singleton singleton2 = Singleton.getInstance();
         System.out.println("singleton1 = singleton2 is: " + singleton1.equals(singleton2));
@@ -12,9 +12,9 @@ public class SingletonTest01 {
     }
 
     /*
-    * 饿汉式（线程安全，双重检查）优缺点说明
-    * 1）优点：即解决了线程安全问题，又解决了懒加载问题，更重要的是还解决了同步执行的效率问题
-    * 2）缺点：无
-    * 3）结论：在实际开发中，非常推荐使用这种方式。✔︎
+    * 饿汉式（线程安全，同步方法）优缺点说明
+    * 1）优点：解决了线程安全问题
+    * 2）缺点：因着线程同步带来线程排队的问题，导致程序的执行效率大大降低
+    * 3）结论：在实际开发中，不推荐使用这种方式。
     * */
 }

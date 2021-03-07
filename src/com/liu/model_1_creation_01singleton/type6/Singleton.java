@@ -1,4 +1,4 @@
-package com.liu.model_1_creation_01singleton_type6;
+package com.liu.model_1_creation_01singleton.type6;
 
 // 单例模式（双重检查）
 /*

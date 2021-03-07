@@ -1,4 +1,4 @@
-package com.liu.model_1_creation_01singleton_type1;
+package com.liu.model_1_creation_01singleton.type1;
 
 // 饿汉式（静态常量）
 /*

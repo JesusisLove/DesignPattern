@@ -1,4 +1,4 @@
-package com.liu.model_1_creation_01singleton_type3;
+package com.liu.model_1_creation_01singleton.type3;
 
 // 懒汉式（线程不安全）
 /*

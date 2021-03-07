@@ -1,4 +1,4 @@
-package com.liu.model_1_creation_01singleton_type7;
+package com.liu.model_1_creation_01singleton.type7;
 
 // 单例模式（静态内部类）
 /*

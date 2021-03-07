@@ -1,4 +1,4 @@
-package com.liu.model_1_creation_01singleton_type5;
+package com.liu.model_1_creation_01singleton.type5;
 
 // 懒汉式（线程安全，同步代码块）
 /*
