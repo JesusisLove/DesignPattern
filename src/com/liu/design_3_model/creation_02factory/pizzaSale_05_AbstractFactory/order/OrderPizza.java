@@ -23,7 +23,7 @@ public class OrderPizza {
             // factory可能是TokyoFactory的工厂子类，也可能是LondonFactory的工厂子类
             pizza = factory.excuteOrderPizza(orderType);
             if (pizza != null) {
-                // 根据客户要求，开始做披萨
+                // 根据客户的口味要求，开始做披萨
                 createPizza(pizza);
                 // 披萨做好后，递给顾客
                 System.out.println("您好！您订购的【"+pizza.getName()+"】做好了，请拿好，谢谢光临！ ^_^");
@@ -46,7 +46,7 @@ public class OrderPizza {
     private String getOrderType() {
         try {
             BufferedReader strin = new BufferedReader(new InputStreamReader(System.in));
-            System.out.println(("输入的披萨种类是："));
+            System.out.println(("你好，欢迎光临👏👏👏，我们这里有cheese口味，peper口味，carry口味的披萨，请问您要什么口味的披萨种呀？："));
             String str = strin.readLine();
             return str;
         } catch (IOException e) {

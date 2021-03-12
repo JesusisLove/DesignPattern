@@ -1,9 +1,9 @@
 package com.liu.design_3_model.creation_02factory.pizzaSale_05_AbstractFactory.pizza;
 
-public class LDPepperPizza extends Pizza {
+public class LDCarryPizza extends Pizza {
 
-    public LDPepperPizza() {
-        name = "伦敦风味胡椒披萨";
+    public LDCarryPizza() {
+        name = "伦敦风味的咖喱披萨";
     }
 
     public String getName() {
@@ -29,5 +29,4 @@ public class LDPepperPizza extends Pizza {
     public void box() {
         System.out.println(name + "正在包装中......");
     }
-
 }
