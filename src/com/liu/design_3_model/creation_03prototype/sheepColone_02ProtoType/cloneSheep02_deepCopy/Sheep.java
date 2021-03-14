@@ -7,8 +7,8 @@ public class Sheep implements Serializable,Cloneable {
     public Sheep() {
         super();
     }
-    private Heart heart = new Heart("羊的心脏","器官类");// 引用类型的属性
-    private Liver liver = new Liver("羊的肝脏","器官类");
+    private Heart heart = new Heart("羊的心脏","器官类");// Heart类与Sheep类的关系是组合关系
+    private Liver liver = new Liver("羊的肝脏","器官类");// Liver类与Sheep类的关系是组合关系
 
     public Heart getHeart() {
         return heart;

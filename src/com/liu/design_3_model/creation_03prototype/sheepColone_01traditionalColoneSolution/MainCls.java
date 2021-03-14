@@ -14,6 +14,12 @@ public class MainCls {
         Sheep sheep6 = new Sheep(sheep.getName(),sheep.getAge(), sheep.getColor());
         Sheep sheep8 = new Sheep(sheep.getName(),sheep.getAge(), sheep.getColor());
         Sheep sheep9 = new Sheep(sheep.getName(),sheep.getAge(), sheep.getColor());
+        /* 上面代码是用传统的方式实现克隆，是可以的，
+        * new Sheep(sheep.getName(),sheep.getAge(), sheep.getColor())这里面是三个参数，如果Sheep类里有很多个
+        * 成员变量（如200个成员变量）时，这种写法就显得很笨拙了，怎么办？
+        * 让Sheep继承Cloneable类，直接调用Object clone()方法拷贝对象
+        * 解决方法参看--->cloneSheep01_shallowCopy和cloneSheep02_deepCopy
+        *  */
 
         System.out.println("sheep0" + sheep0);
         System.out.println("sheep1" + sheep0);

@@ -37,8 +37,13 @@ public class StartMainCls {
         Sheep sheep0 = (Sheep) sheep.deepCloneWithSerializable();
         Sheep sheep1 = (Sheep) sheep.deepCloneWithSerializable();
 
-        System.out.println("sheep0.hashCode = " + sheep0.hashCode() + "  //sheep0.heart = " + sheep0.getHeart().hashCode() + "  //sheep0.liver = " + sheep0.getLiver().hashCode());
-        System.out.println("sheep1.hashCode = " + sheep1.hashCode() + "  //sheep1.heart = " + sheep1.getHeart().hashCode() + "  //sheep1.liver = " + sheep1.getLiver().hashCode());
+        System.out.println("sheep0.hashCode = " + sheep0.hashCode() +
+                "  //sheep0.heart = " + sheep0.getHeart().hashCode() +
+                "  //sheep0.liver = " + sheep0.getLiver().hashCode());
+
+        System.out.println("sheep1.hashCode = " + sheep1.hashCode() +
+                "  //sheep1.heart = " + sheep1.getHeart().hashCode() +
+                "  //sheep1.liver = " + sheep1.getLiver().hashCode());
 
 
     }
