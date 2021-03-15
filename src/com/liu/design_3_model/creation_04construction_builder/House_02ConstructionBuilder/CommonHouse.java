@@ -1,5 +1,6 @@
 package com.liu.design_3_model.creation_04construction_builder.House_02ConstructionBuilder;
 
+/* 这是盖普通房子的建造方式 （如拿宝马生产线来说，这是生产宝马M5家用轿车的生产线）*/
 public class CommonHouse extends HouseBulider {
     @Override
     public void buildBasic() {

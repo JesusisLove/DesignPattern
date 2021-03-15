@@ -4,6 +4,7 @@ public class StartMainCls {
     public static void main(String[] args) {
         CommonHouse commonHouse = new CommonHouse();
         commonHouse.doBuild();
+
     }
 
     /*传统方式解决盖房需求方案设计问题分析

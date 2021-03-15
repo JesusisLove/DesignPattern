@@ -1,6 +1,7 @@
 package com.liu.design_3_model.creation_04construction_builder.House_02ConstructionBuilder;
 
 // 建造者模式四个基本角色之---抽象的建造者：HouseBulider
+/* 不关心房子的建造方式 （如拿宝马生产线来说，这是生产宝马生产线，不关心生产什么系列的宝马）*/
 public abstract class HouseBulider {
     // 建造者模式四个基本角色之---产品：House
     public House house = new House();

@@ -19,7 +19,14 @@ public class StartMainCls {
         house = houseDirector.constructHouse();
         System.out.println("【house.hashCode=" + house.hashCode() + "】house.basic = "+house.getBasic());
 
-        buliderSampleInJDK();
+
+        System.out.println("----------------------------------------------------");
+        BigVillaHouse villaHouse = new BigVillaHouse();
+        houseDirector.setHouseBulider(villaHouse);
+        house = houseDirector.constructHouse();
+        System.out.println("【house.hashCode=" + house.hashCode() + "】house.basic = "+house.getBasic());
+
+//        buliderSampleInJDK();
     }
 
     /*
