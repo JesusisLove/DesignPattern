@@ -1,7 +1,6 @@
-package com.liu.design_3_model.structure_01Adapter.objectAdapter;
+package com.liu.design_3_model.structure_01Adapter.case2_objectAdapter;
 
-public class PhoneAdapter implements AdapterOutPutVoltage5V {
-
+public class PhoneAdapter implements AdapterOutPutIVoltage5V {
     /* 对象适配器就是，利用【合成复用原则】，破除继承关系，该用关联关系，降低类直接的耦合度
     * 让PhoneAdapter类持有AdapterInputVoltage220V类对象，
     * 而不是继承AdapterInputVoltage220V
@@ -17,8 +16,10 @@ public class PhoneAdapter implements AdapterOutPutVoltage5V {
 
     // 手机充电器开关
     private void turn_on_adapter() {
-        srcV = src220V.provide220V();
-        System.out.println("充电器已经插入电源插座接通了" + srcV +"伏特的电压了");
+        if (null != src220V) {
+            srcV = src220V.provide220V();
+            System.out.println("充电器已经插入电源插座接通了" + srcV + "伏特的电压了");
+        }
     }
 
     @Override

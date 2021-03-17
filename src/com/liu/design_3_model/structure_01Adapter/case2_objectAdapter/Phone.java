@@ -1,10 +1,10 @@
-package com.liu.design_3_model.structure_01Adapter.objectAdapter;
+package com.liu.design_3_model.structure_01Adapter.case2_objectAdapter;
 
 public class Phone {
 
-    AdapterOutPutVoltage5V adapter = null;
+    AdapterOutPutIVoltage5V adapter = null;
     // 将手机接入充电器
-    public void setAdapter(AdapterOutPutVoltage5V adapter) {
+    public void setAdapter(AdapterOutPutIVoltage5V adapter) {
         System.out.println("手机已经连上了充电器。。。");
         this.adapter = adapter;
     }

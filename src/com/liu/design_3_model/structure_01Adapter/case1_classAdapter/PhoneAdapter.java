@@ -1,4 +1,4 @@
-package com.liu.design_3_model.structure_01Adapter.classAdapter;
+package com.liu.design_3_model.structure_01Adapter.case1_classAdapter;
 
 public class PhoneAdapter extends AdapterInputVoltage220V implements AdapterOutPutVoltage5V {
     private int srcV = 0;

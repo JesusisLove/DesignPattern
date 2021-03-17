@@ -1,4 +1,4 @@
-package com.liu.design_3_model.structure_01Adapter.objectAdapter;
+package com.liu.design_3_model.structure_01Adapter.case2_objectAdapter;
 
 public class UserMainCls {
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class UserMainCls {
         AdapterInputVoltage220V inputVoltage220 = new AdapterInputVoltage220V();
 
         // 手机随身带的充电器接入220V电源
-        AdapterOutPutVoltage5V adapter = new PhoneAdapter(inputVoltage220);
+        AdapterOutPutIVoltage5V adapter = new PhoneAdapter(inputVoltage220);
 
         // 用户将手机接入充电器
         iPhone.setAdapter(adapter);

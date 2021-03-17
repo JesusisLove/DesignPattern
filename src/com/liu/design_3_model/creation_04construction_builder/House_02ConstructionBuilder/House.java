@@ -23,6 +23,7 @@ public class House {
     public String getWall() {
         return wall;
     }
+
     public String getRoofed() {
         return roofed;
     }
