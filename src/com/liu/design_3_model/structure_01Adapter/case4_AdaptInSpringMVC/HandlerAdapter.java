@@ -37,3 +37,14 @@ class SimpleHandlerAdapter implements HandlerAdapter {
         return (handler instanceof SimpleController);
     }
 }
+
+// ------- 假设框架新增了需求Https，对框架进行扩展 -------
+class HttpsHandlerAdapter implements HandlerAdapter {
+    public void handle(Object handler) {
+        ((HttpsController)handler).doHttpsController();
+    }
+
+    public boolean supports(Object handler) {
+        return (handler instanceof HttpsController);
+    }
+}

@@ -9,15 +9,20 @@ public class DispatchServlet {
         handlerAdapterList.add(new AnnotationHandlerAdapter());
         handlerAdapterList.add(new HttpHandlerAdapter());
         handlerAdapterList.add(new SimpleHandlerAdapter());
+        // ------- 假设框架新增了需求Https，对框架进行扩展 -------
+        handlerAdapterList.add(new HttpsHandlerAdapter());
     }
 
     public void doDispatch() {
         /*模拟SpringMVC从request去handler的对象*/
         // 适配器可以获取到希望的Controller
 
-        AnnotationController controller = new AnnotationController();
+//        AnnotationController controller = new AnnotationController();
 //        HttpController controller = new HttpController();
 //        SimpleController controller = new SimpleController();
+
+        // ------- 假设框架新增了需求Https，对框架进行扩展 -------
+        HttpsController controller = new HttpsController();
 
         // 获得对应的适配器
         HandlerAdapter adapter = getHandler(controller);

@@ -20,3 +20,10 @@ class SimpleController implements Controller {
         System.out.println("simple...");
     }
 }
+
+// ------- 假设框架新增了需求Https，对框架进行扩展 -------
+class HttpsController implements Controller {
+    public void doHttpsController() {
+        System.out.println("https...");
+    }
+}
