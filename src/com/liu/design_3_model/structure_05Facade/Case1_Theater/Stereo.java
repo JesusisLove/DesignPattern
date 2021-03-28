@@ -20,5 +20,4 @@ public class Stereo {
     public void volume() {
         System.out.println("Stereo is settingVolume...");
     }
-
 }
