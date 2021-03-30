@@ -1,4 +1,4 @@
-package com.liu.design_3_model.structure_07Proxy.type2_DynamicProxy;
+package com.liu.design_3_model.structure_07Proxy.type2_dynamicProxy;
 
 public class TeacherDao implements ITeacherDao {
     // 老师开始上课
