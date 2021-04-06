@@ -5,7 +5,7 @@ import com.liu.design_3_model.behavior_03visitor.visitor.AbsScoreAction;
 
 import java.util.LinkedList;
 import java.util.List;
-/* 管理现场观众到对象结构体：管理在场的Male观众和Female观众 */
+/* 管理现场观众的对象结构体：管理在场的Male观众和Female观众 */
 public class ObjectStructure {
     // 维护了一个集，盛放AbsPerson的子类对象
     private List<AbsPerson> personList = new LinkedList<>();
