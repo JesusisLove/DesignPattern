@@ -19,7 +19,6 @@ public class SymbolExpression extends AbstractExpression {
         this.right = right;
     }
 
-
     @Override
     public int interpreter(HashMap<String, Integer> var) {
         //因为SymbolExpression是让其子类来实现，所以SymbolExpression的interpreter是一个默认的空实现，即什么都不要做。
